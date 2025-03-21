@@ -10,7 +10,7 @@ This repository provides a framework for training teacher and student models for
 - Train **teacher models** on QM9 (first 5 targets).
 - Train **student models** with or without **knowledge distillation** on 10 different QM9 and two experimental datasets within MoleculeNet (ESOL/FreeSolv).
 - Supports **SchNet, DimeNet++, and TensorNet** models.
-- Implements **L1 loss + Cosine Similarity loss** for our regression-based KD approach.
+- Implements **Uncertainity-weighted ensemble of L1 loss and Cosine Similarity loss** for our regression-based KD approach.
 - **Hyperparameter tuning** using **Optuna**.
 - **Early stopping & model checkpointing**.
 - **Logging** of metrics and best models.
