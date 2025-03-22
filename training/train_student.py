@@ -38,8 +38,18 @@ if config.USE_KD:
     teacher.eval()
 
 # Loss and optimizer
-criterion = TotalLoss()
-optimizer = optim.Adam(student.parameters(), lr=config.LEARNING_RATE)
+if config.USE_KD:
+    criterion = TotalLoss().to(config.DEVICE)  # includes learnable weights (e.g., sigma_1, sigma_2)
+    optimizer = optim.Adam(
+        list(student.parameters()) + list(criterion.parameters()),
+        lr=config.LEARNING_RATE
+    )
+else:
+    criterion = TotalLoss().to(config.DEVICE)  # same loss object, but no KD signal
+    optimizer = optim.Adam(
+        student.parameters(),  # don’t optimize unused sigma parameters
+        lr=config.LEARNING_RATE
+    )
 
 # Tracking best model
 best_val_loss = float("inf")
