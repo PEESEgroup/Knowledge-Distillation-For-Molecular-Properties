@@ -85,7 +85,7 @@ python training/optimize_hyperparams.py
 
 ## 📜 Citation
 - If you find this repository useful, please cite our work:
-
+'''
 @article{molKD2025,
   author    = {Sheshanarayana, Rahul and You, Fengqi},
   title     = {Knowledge Distillation for Molecular Property Prediction: A Scalability Analysis},
@@ -99,7 +99,7 @@ python training/optimize_hyperparams.py
   eprint    = {# insert after published #},
   abstract  = {# insert after published #}
 }
-
+'''
 
 ---
 
