@@ -84,7 +84,22 @@ python training/optimize_hyperparams.py
 - Pretrained teacher and student models for QM9, ESOL, and FreeSolv can be downloaded here - [pretrained models](https://drive.google.com/drive/folders/1k_N6Cswk57DlxprMFuArh-oaxTz_V-xi?usp=sharing)
 
 ## 📜 Citation
-- If you find this repository useful, please cite our work: ##Add citation to the article here##
+- If you find this repository useful, please cite our work:
+
+@article{molKD2025,
+  author    = {Sheshanarayana, Rahul and You, Fengqi},
+  title     = {Knowledge Distillation for Molecular Property Prediction: A Scalability Analysis},
+  journal   = {Advanced Science},
+  volume    = {n/a},
+  number    = {n/a},
+  pages     = {# insert after published #},
+  keywords  = {materials informatics, graph neural networks, scalability, knowledge distillation},
+  doi       = {# insert after published #},
+  url       = {# insert after published #},
+  eprint    = {# insert after published #},
+  abstract  = {# insert after published #}
+}
+
 
 ---
 
