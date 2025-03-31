@@ -3,7 +3,7 @@
 This repository provides a framework for training teacher and student models for molecular property prediction using **Knowledge Distillation (KD)**. The implementation supports training on the **QM9, ESOL, and FreeSolv** datasets and utilizes **graph neural networks (GNNs)** like **SchNet, DimeNet++, and TensorNet**.
 
 <p align="center">
-  <img width="396" alt="image" src="[https://github.com/user-attachments/assets/c08ad6dc-22bf-4f2f-bfce-b1d43172b6ce](https://github.com/PEESEgroup/Knowledge-Distillation-For-Molecular-Properties/blob/main/TOC.png)" />
+  <img width="396" alt="image" src="https://github.com/PEESEgroup/Knowledge-Distillation-For-Molecular-Properties/blob/main/TOC.png" />
 </p>
 
 ## 📌 Features
