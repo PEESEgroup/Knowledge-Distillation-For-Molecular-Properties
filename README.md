@@ -87,18 +87,14 @@ python training/optimize_hyperparams.py
 - If you find this repository useful, please cite our work:
   
 ```
-@article{molKD2025,
-  author    = {Sheshanarayana, Rahul and You, Fengqi},
+@article{Sheshanarayana2025,
+  author    = {R. Sheshanarayana and Fengqi You},
   title     = {Knowledge Distillation for Molecular Property Prediction: A Scalability Analysis},
   journal   = {Advanced Science},
+  year      = {2025},
   volume    = {n/a},
-  number    = {n/a},
-  pages     = {# insert after published #},
-  keywords  = {materials informatics, graph neural networks, scalability, knowledge distillation},
-  doi       = {# insert after published #},
-  url       = {# insert after published #},
-  eprint    = {# insert after published #},
-  abstract  = {# insert after published #}
+  pages     = {2503271},
+  doi       = {10.1002/advs.202503271}
 }
 ```
 ---
